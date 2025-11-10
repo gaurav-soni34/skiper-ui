@@ -43,18 +43,19 @@ const SpecialCard = () => {
                     "pointer-events-none w-[90%] overflow-hidden rounded-t-[24px] border border-stone-100/10 transition-all duration-500 dark:border-stone-700",
                     "left-[5%] top-[50%] md:left-1/2 md:left-[68px] md:top-[30%]"
                   )}
-                  step4imgClass={cn(
-                    "pointer-events-none w-[90%] overflow-hidden rounded-t-[24px] border border-stone-100/10 transition-all duration-500 dark:border-stone-700",
-                    "left-[5%] top-[50%] md:left-1/2 md:left-[68px] md:top-[30%]"
-                  )}
             title="Component that pop"
             description="Make your app 🤌"
 
             image={{
+                step1dark1:Card4,
+                step1dark2:Card5,
                 step1light1:Card4,
                 step1light2:Card5,
+                step2dark1:Card6,
+                step2dark2:Card7,
                 step2light1:Card6,
                 step2light2:Card7,
+                step3dark:Card8,
                 step3light:Card8,
                 step4light:Card9,
                 alt: "Special Card Image",

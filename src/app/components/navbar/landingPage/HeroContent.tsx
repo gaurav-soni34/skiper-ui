@@ -1,15 +1,18 @@
 import WrapButton from "@/components/ui/wrap-button";
 import { Globe } from "lucide-react";
+import Image from "next/image";
 import React from "react";
 
 const HeroContent = () => {
   return (
     <>
       <div className="flex flex-col items-center py-18 ">
-      <img
+      <Image
         className="h-10 mb-4"
         src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=806890&theme=light&t=1737565356562"
         alt="Hero"
+        width={100}
+        height={40}
       />
       <div className="pt-4 md:pt-0">
         <h3 className="text-center mt-4">
@@ -45,8 +48,8 @@ const HeroContent = () => {
       <p className="text-xl text-black/60">To make your dream Website live by just <span className="text-black/60 font-bold">Copy and paste</span></p>
     </div>
 
-    <img className="absolute left-26 top-80 h-174" src="https://skiper-ui.com/bg/bg_1.svg" alt="" />
-    <img className="absolute right-21 top-80 h-135" src="https://skiper-ui.com/bg/bg_2.svg" alt="" />
+    <Image className="absolute left-26 top-80 h-174" src="https://skiper-ui.com/bg/bg_1.svg" alt="Background 1" width={200} height={400} />
+    <Image className="absolute right-21 top-80 h-135" src="https://skiper-ui.com/bg/bg_2.svg" alt="Background 2" width={200} height={300} />
     </>
   );
 };

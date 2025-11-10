@@ -1,9 +1,9 @@
 import React from "react"
-import { IceCreamIcon, SparklesIcon } from "lucide-react"
+import { IceCreamIcon } from "lucide-react"
 
 import { Badge } from "@/components/ui/badge"
 
-const BadgeButton = ({children}) => {
+const BadgeButton = ({children}: {children: React.ReactNode}) => {
   return (
     <Badge
       variant="outline"
